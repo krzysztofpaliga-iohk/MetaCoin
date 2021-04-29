@@ -7,7 +7,7 @@ module.exports = {
   // for more details on how to specify configuration options!
   //
   networks: {
-    development: {
+    sagano: {
 //			provider: () => new HDWalletProvider("base naive animal bacon blanket glance matter meadow unit start better pole", "http://localhost:28569"),
 //			network_id: "*",
       host: "127.0.0.1",
@@ -16,6 +16,7 @@ module.exports = {
 			//from: "0xabaa573e1ca26bc44e1c7313fdedcf9f32c4f424",
 			//from: "0x99f4e3E4C0aDe3b687730DF38440a29771C9b7d0",
 			from: "0x8fb9ed1d0a677e0f141699dfc4eedad68432a5fb",
+			gas: 5500000,
     },
   //  test: {
   //    host: "127.0.0.1",
