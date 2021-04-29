@@ -1,4 +1,3 @@
-//const HDWalletProvider = require('@truffle/hdwallet-provider')
 module.exports = {
   // Uncommenting the defaults below 
   // provides for an easier quick-start with Ganache.
@@ -7,21 +6,17 @@ module.exports = {
   // for more details on how to specify configuration options!
   //
   networks: {
-    development: {
-//			provider: () => new HDWalletProvider("base naive animal bacon blanket glance matter meadow unit start better pole", "http://localhost:28569"),
-//			network_id: "*",
+//    development: {
+//      host: "127.0.0.1",
+//      port: 7545,
+//      network_id: "*"
+//    },
+    sagano: {
       host: "127.0.0.1",
       port: 8546,
       network_id: "*",
-			//from: "0xabaa573e1ca26bc44e1c7313fdedcf9f32c4f424",
-			//from: "0x99f4e3E4C0aDe3b687730DF38440a29771C9b7d0",
-			from: "0x8fb9ed1d0a677e0f141699dfc4eedad68432a5fb",
-    },
-  //  test: {
-  //    host: "127.0.0.1",
-  //    port: 7545,
-  //    network_id: "*"
-  //  }
+      from: "0x7c0757050752dc33f0034bfca3abc6c75145f752"
+    }
   }
-  //
+
 };
