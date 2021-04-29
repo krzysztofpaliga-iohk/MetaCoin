@@ -15,7 +15,11 @@ module.exports = {
       host: "127.0.0.1",
       port: 8546,
       network_id: "*",
-      from: "0x7c0757050752dc33f0034bfca3abc6c75145f752"
+      from: "0x7c0757050752dc33f0034bfca3abc6c75145f752",
+      gas: 9000000,
+      gasPrice: 10000000000,
+      skipDryRun: true,
+      networkCheckTimeout: 10000
     }
   }
 
